@@ -10,6 +10,7 @@ public class SpeedIncrease : CollectibleBase
     {
         // pull motor from the player 
         BallMotor _motor = player.GetComponent<BallMotor>();
+
         if(_motor != null)
         {
             _motor.MaxSpeed += _speedAmount;
